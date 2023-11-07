@@ -1,3 +1,7 @@
+navigator.geolocation.getCurrentPosition((res)=>{
+    console.log(res.coords);
+})
+
 let endpoint = ""
 
 const checkWeather = () => {
