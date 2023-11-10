@@ -1,5 +1,13 @@
-body {
+.backbody {
     background-image: url("image/pexels-dan-meyers-2364701.jpg");
     background-size: cover;
+    height: 100vh;
     /* max-width: 100%; */
+}
+
+@media screen and (max-width: 478px) {
+    .backbody {
+        /* background-image: url("image/pexels-marlon-martinez-1517162.jpg"); */
+        height: 100vh;
+    }
 }
